@@ -1,0 +1,33 @@
+.container{
+    width: 85%;
+    margin: auto;
+}
+.acoordion{
+    width: 100%;
+    border: none;
+    background-color: #8888;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 0px;
+    cursor: pointer;
+    height: 40px;
+    outline: none;
+}
+.acoordion:hover{
+    background: #777;
+}
+.acoordion:after{
+
+    content: "+";
+    float: right;
+    font-weight: bold;
+}
+.active:after{
+    content: "-";
+}
+.dsc{
+    padding: 0 15px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: 0.4s;
+}
